@@ -102,7 +102,7 @@ $profile=asset(Storage::url('uploads/avatar'));
                                                     <i class="ti ti-trash"></i>{{ __('Delete') }}
                                                 </a>
                                                 {!! Form::close() !!}
-                                                
+
                                         </div>
                                     </div>
                                     @else
@@ -169,7 +169,7 @@ $profile=asset(Storage::url('uploads/avatar'));
             </div>
         </div>
     @endforeach
-    <div class="col-xl-3 col-lg-4 col-sm-6"> 
+    <div class="col-xl-3 col-lg-4 col-sm-6">
         <a href="#" class="btn-addnew-project "  data-bs-toggle="modal"
         data-bs-target="#exampleModal" data-url="{{ route('employee.create')}}" data-size="lg" data-bs-whatever="{{__('Create New Employee')}}">
             <div class="bg-primary proj-add-icon">
@@ -179,6 +179,8 @@ $profile=asset(Storage::url('uploads/avatar'));
             <p class="text-muted text-center">{{ __('Click here to add new employee') }}</p>
         </a>
     </div>
+
+
 
 </div>
 
